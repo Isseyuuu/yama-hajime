@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://isseyuuu.github.io/yama-hajime/sitemap.xml
