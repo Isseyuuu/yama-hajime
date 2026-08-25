@@ -40,7 +40,7 @@ for p in htmls:
 ns={'s':'http://www.sitemaps.org/schemas/sitemap/0.9'}
 tree=ET.parse(ROOT/'sitemap.xml')
 listed={urlparse(n.text).path[len('/yama-hajime/'):].rstrip('/') if urlparse(n.text).path.startswith('/yama-hajime/') else urlparse(n.text).path.rstrip('/') for n in tree.findall('.//s:loc',ns)}
-expected={'','about.html','privacy.html','articles/mountain-hiking-start.html','articles/trekking-start.html','articles/swimming-start.html','articles/fuji-climbing.html','en','en/fuji-climbing.html'}
+expected={'','about.html','privacy.html','articles/mountain-hiking-start.html','articles/trekking-start.html','articles/swimming-start.html','articles/fuji-climbing.html','articles/fuji-climbing-gear.html','en','en/fuji-climbing.html'}
 if listed!=expected: errors.append(f'sitemap mismatch: {listed ^ expected}')
 
 for p in sorted((ROOT/'articles').glob('*.html')):
