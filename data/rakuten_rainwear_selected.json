@@ -1,0 +1,28 @@
+{
+  "fetchedAt": "2026-08-26T23:09:04+09:00",
+  "source": "楽天市場 商品検索API（レビュー件数・平均評価は楽天市場の集計値）",
+  "profile": "rainwear",
+  "criteria": {
+    "minReviews": 1,
+    "minAverage": 3.5,
+    "note": "商品名による候補選定。必須装備への適合は商品ページで別途確認する。"
+  },
+  "itemCount": 1,
+  "items": [
+    {
+      "itemCode": "benque:10000471",
+      "itemName": "高評価★4.4 アウトドアジャケット 上下セット レインウェア メンズ マウンテンパーカー 登山ウェア 登山服 防水 撥水 釣り バイク トレッキング",
+      "shopName": "BENQUE【公式】楽天市場店",
+      "itemPrice": 6980,
+      "taxFlag": 0,
+      "taxNote": "税込",
+      "postageFlag": 0,
+      "postageNote": "送料込",
+      "reviewCount": 166,
+      "reviewAverage": 4.42,
+      "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00tsj1o.2j8hhfa7.g00tsj1o.2j8hia5d/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbenque%2Fbe24-r128%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbenque%2Fi%2F10000471%2F&rafcid=wsc_i_is_d44b87e9-9d1f-4ec8-9586-07676a3e9c39",
+      "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00tsj1o.2j8hhfa7.g00tsj1o.2j8hia5d/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbenque%2Fbe24-r128%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbenque%2Fi%2F10000471%2F&rafcid=wsc_i_is_d44b87e9-9d1f-4ec8-9586-07676a3e9c39",
+      "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/benque/cabinet/item/sale/be24_off.jpg?_ex=128x128"
+    }
+  ]
+}

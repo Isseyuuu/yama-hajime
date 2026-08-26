@@ -1,2 +1,5 @@
 .env
 __pycache__/
+data/rakuten_boots.json
+data/rakuten_backpacks.json
+data/rakuten_rainwear.json

@@ -1,0 +1,9 @@
+{
+  "confirmedAt": "2026-08-26",
+  "source": "楽天市場 ジャンル検索API 20260701",
+  "categories": {
+    "boots": {"genreId": 302384, "path": "スポーツ・アウトドア > 登山・クライミング > 靴・ブーツ"},
+    "backpacks": {"genreId": 111926, "path": "スポーツ・アウトドア > アウトドア > バッグ > バックパック・リュック"},
+    "mountainWear": {"genreId": 568653, "path": "スポーツ・アウトドア > 登山・クライミング > ウェア", "keywordForRainwear": "レイン"}
+  }
+}

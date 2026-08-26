@@ -29,7 +29,9 @@ for p in htmls:
         except Exception as e: errors.append(f'{p}: JSON-LD: {e}')
     public=re.sub(r'<!--.*?-->','',raw,flags=re.S)
     if re.search(r'href\s*=\s*["\']#["\']',public): errors.append(f'{p}: public href="#"')
-    if re.search(r'(?:価格|料金|標高|コースタイム)[^<。]{0,30}\d',re.sub(r'<[^>]+>','',public)):
+    numeric_raw=re.sub(r'<!--\s*RAKUTEN_AD_SLOT:.*?<!--\s*/RAKUTEN_AD_SLOT\s*-->','',raw,flags=re.S)
+    numeric_public=re.sub(r'<!--.*?-->','',numeric_raw,flags=re.S)
+    if re.search(r'(?:価格|料金|標高|コースタイム)[^<。]{0,30}\d',re.sub(r'<[^>]+>','',numeric_public)):
         errors.append(f'{p}: changing numeric fact near restricted term')
     for ref in c.refs:
         u=urlparse(ref)
